@@ -1,17 +1,14 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+/.vscode
+*.retry
+playbook/temp/
+roles/temp/
+inventory/temp
+
 
 # Other files and folders
-.settings/
 
 # Executables
-*.swf
-*.air
-*.ipa
-*.apk
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important

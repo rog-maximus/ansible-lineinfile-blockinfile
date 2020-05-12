@@ -1,0 +1,2 @@
+[rog-test]
+192.168.9.40 ansible_user=root

@@ -1,0 +1,15 @@
+---
+- name: test
+  hosts: rog-test
+  become: yes
+  become_user: root
+  become_method: sudo
+  tasks:
+   - name: test
+     blockinfile:
+       path: /tmp/maximus.txt
+       marker: ""
+       insertafter: "LLLL"
+       block: |
+         123456|!@#$%^T^&*((()))[[[]{}]]
+
