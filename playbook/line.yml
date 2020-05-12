@@ -10,10 +10,6 @@
        dest: /tmp/maximus.txt
        regexp: '^LLLL' 
        line: |
-         window.BASE_URL = "https://g01bn.nrmhp.com/gt01/public/release/";
-         window.CDN_LIST = [
-         { id: 'sky-gtiot',        url: 'https://g05b.nrmhp.com/webedit/it.jpg', target: 'https://g05bn.nrmhp.com/gt01/public/release/'},
-         { id: 'cf-gtiot',         url: 'https://g01b.nrmhp.com/webedit/it.jpg', target: 'https://g01bn.nrmhp.com/gt01/public/release/'},
-         { id: 'ali_china-gtiot',  url: 'https://c02b.50fo.com/webedit/it.jpg', target: 'https://c02bn.50fo.com/gt01/public/release/'},
-         { id: 'akamai-gtiot',     url: 'https://g03b.nrmhp.com/webedit/it.jpg', target: 'https://g03bn.nrmhp.com/gt01/public/release/'}
-         ];
+         1 
+         23
+         {}{{}{!@#%^&^%*(^&*()*&)}}
