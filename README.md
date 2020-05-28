@@ -67,5 +67,16 @@ marker: "" 這邊可以填寫你要標注的項目(這邊不添加會顯示兩�
        state: absent
 ```
 
+官方網站介紹的這一種用法，是拿來定位用的，在#Listen開頭之後的開頭Listen，取代成Listen 8080
+https://docs.ansible.com/ansible/latest/modules/lineinfile_module.html
+```
+- name: Ensure the default Apache port is 8080
+  lineinfile:
+    path: /etc/httpd/conf/httpd.conf
+    regexp: '^Listen '
+    insertafter: '^#Listen '
+    line: Listen 8080
+```
+
 參考:
 https://blog.51cto.com/zouqingyun/1882367
