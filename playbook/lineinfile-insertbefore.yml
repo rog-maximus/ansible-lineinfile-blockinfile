@@ -1,0 +1,13 @@
+---
+- name: test
+  hosts: rog-test
+  become: yes
+  become_user: root
+  become_method: sudo
+  tasks:
+   - name: httpd.conf modify 8080
+     lineinfile:
+       dest: /tmp/maximus.txt
+       insertbefore: '^L'
+       line: |
+         11111111111111

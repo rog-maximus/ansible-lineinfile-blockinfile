@@ -8,8 +8,8 @@
    - name: httpd.conf modify 8080
      lineinfile:
        dest: /tmp/maximus.txt
-       regexp: '^LLLL' 
+       regexp: '^LLL' 
        line: |
-         1 
-         23
-         {}{{}{!@#%^&^%*(^&*()*&)}}
+          1 
+          23
+          ~~!~@~!@@#!@$#%@#$%$^*()__)"'
