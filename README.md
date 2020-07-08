@@ -89,8 +89,7 @@ https://blog.51cto.com/zouqingyun/1882367
 
 
 
-另外一個可以做修改檔案內容的方法(未測試):
-https://docs.ansible.com/ansible/latest/modules/replace_module.html
+
 
 ## replace
 ```
@@ -104,3 +103,5 @@ https://docs.ansible.com/ansible/latest/modules/replace_module.html
     regexp: "找的內容"
     replace: "取代後內容"
 ```
+另外一個可以做修改檔案內容的方法(未測試):
+https://docs.ansible.com/ansible/latest/modules/replace_module.html
